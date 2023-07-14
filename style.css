@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+background-color:#68ABF8 ;
+}
+h3{
+float: left;
+color: #0a3148;
+background-color: rgb(13,54,90,0);
+border: 2px solid #fff;
+height: 59px;
+width: 88px;
+text-align: center;
+margin-left: 470px;
+margin-top: -10px;
+padding-top: 40px;
+text-shadow: 1px 1px 1px #fff;
+font-family: 'Concert One', cursive;
+
+}
+p{
+margin-top: 40px;
+margin-left: 560px;
+font-family: 'Cinzel', serif;
+margin-top: -10px;
+color: #fff;
+background-color:rgb(13,54,90);
+border: 2px solid #fff;
+width: 295px;
+padding-left: 5px;
+height: 90px;
+padding-top:9px;
+border-radius: 5px ;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.4px;
+font-weight: 600;
+}
+h1{
+color: #0A3148;
+font-family: 'Concert One', cursive;
+text-shadow: 3px 1px 3px #fff;
+text-align: center;
+margin-top: 10px;
+text-decoration: underline;
+font-size: 45px;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 3px 3px 6px midnightblue;
+  margin-top: 20px;
+}
+
+.cell {
+  border: 1px solid #ccc;
+  background-color: #0D365A;
+}
+
+.cell.hit {
+background-size:cover; 
+ 
+  background-image:url('https://thumbs.dreamstime.com/b/cute-treasure-map-cartoon-vector-illustration-motif-set-hand-drawn-isolated-marks-spot-elements-clipart-hunt-blog-ocean-147816533.jpg')
+  }
+
+.cell.miss {
+  background-size:cover;
+  background-image:url('https://img.freepik.com/free-vector/pirate-ship-with-jolly-roger-flag-isolated_1308-69122.jpg?w=2000');
+  }
+
+#bt{
+margin-left: 630px;
+margin-top: 20px;
+height: 30px;
+width: 80px;
+border-radius: 20px;
+font-weight: 500;
+font-size: 11px;
+background-color: #0D365A;
+color: #fff;
+border-color: #fff;
+ box-shadow: 3px 3px 3px midnightblue;
+}
